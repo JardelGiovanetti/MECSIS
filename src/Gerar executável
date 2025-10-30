@@ -1,1 +1,0 @@
-pyinstaller --noconsole --onefile --name "MEC-SIS" --icon "src\mecsis\assets\mecsis.ico" --add-data "src\mecsis\database\schema.sql;mecsis\database" --add-data "src\mecsis\assets\mecsis.ico;mecsis\assets" --hidden-import _cffi_backend "src\app.py"
